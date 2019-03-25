@@ -1,0 +1,278 @@
+<resources>
+    <string name="app_name">EventUA</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid. Provide a valid ua email.</string>
+    <string name="error_invalid_password">This password is too short.</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_welcome">Welcome</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TO BE REMOVED -->
+
+    <string name="title_placeholder">Title</string>
+    <string name="news_placeholder">News</string>
+
+    <string-array name="all_events_name">
+        <item>Event 1</item>
+        <item>Event 2</item>
+        <item>Event 3</item>
+        <item>Event 4</item>
+        <item>Event 5</item>
+        <item>Event 6</item>
+        <item>Event 7</item>
+    </string-array>
+
+    <string-array name="all_events_description">
+        <item>Description 1</item>
+        <item>Description 2</item>
+        <item>Description 3</item>
+        <item>Description 4</item>
+        <item>Description 5</item>
+        <item>Description 6</item>
+        <item>Description 7</item>
+    </string-array>
+
+    <string-array name="all_events_hours">
+        <item>10h - 15h30</item>
+        <item>11h - 15h30</item>
+        <item>12h - 15h30</item>
+        <item>13h - 15h30</item>
+        <item>14h - 15h30</item>
+        <item>15h - 15h30</item>
+        <item>16h - 15h30</item>
+    </string-array>
+
+    <array name="all_events_images">
+        <item>@drawable/event_background</item>
+        <item>@drawable/event_background</item>
+        <item>@drawable/event_background</item>
+        <item>@drawable/event_background</item>
+        <item>@drawable/event_background</item>
+        <item>@drawable/event_background</item>
+        <item>@drawable/event_background</item>
+    </array>
+
+    <string-array name="sports_titles">
+        <item>Baseball Baseball Baseball</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Bowling</item>
+        <item>Cycling</item>
+        <item>Golf</item>
+        <item>Running</item>
+        <item>Soccer</item>
+        <item>Swimming</item>
+        <item>Table Tennis</item>
+        <item>Tennis</item>
+    </string-array>
+
+    <string-array name="sports_info">
+        <item>14h - 15h30</item>
+        <item>14h - 15h30</item>
+        <item>14h - 15h30</item>
+        <item>14h - 15h30</item>
+        <item>14h - 15h30</item>
+        <item>14h - 15h30</item>
+        <item>14h - 15h30</item>
+        <item>14h - 15h30</item>
+        <item>14h - 15h30</item>
+        <item>14h - 15h30</item>
+        <item>14h - 15h30</item>
+    </string-array>
+
+
+    <array name="sports_images">
+        <item>@drawable/orange_background</item>
+        <item>@drawable/orange_background</item>
+        <item>@drawable/orange_background</item>
+        <item>@drawable/orange_background</item>
+        <item>@drawable/orange_background</item>
+        <item>@drawable/orange_background</item>
+        <item>@drawable/orange_background</item>
+        <item>@drawable/orange_background</item>
+        <item>@drawable/orange_background</item>
+        <item>@drawable/orange_background</item>
+        <item>@drawable/orange_background</item>
+
+    </array>
+
+    <string name="subtitle_detail_text">Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Praesent ultrices congue rutrum.
+        Phasellus elementum ipsum ac convallis aliquam. Suspendisse eleifend
+        eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum
+        blandit, dolor diam fringilla tellus, eu euismod mauris neque
+        at neque.orem ipsum dolor sit amet,
+        consectetur adipiscing elit. Praesent ultrices congue rutrum.
+        Phasellus elementum ipsum ac convallis aliquam. Suspendisse eleifend
+        eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum
+        blandit, dolor diam fringilla tellus, eu euismod mauris neque
+        at neque.orem ipsum dolor sit amet.
+        Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit. Praesent ultrices congue rutrum.
+        Phasellus elementum ipsum ac convallis aliquam. Suspendisse eleifend
+        eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum
+        blandit, dolor diam fringilla tellus, eu euismod mauris neque
+        at neque.orem ipsum dolor sit amet,
+        consectetur adipiscing elit. Praesent ultrices congue rutrum.
+        Phasellus elementum ipsum ac convallis aliquam. Suspendisse eleifend
+        eros a enim faucibus mollis. Nunc placerat, est vitae vestibulum
+        blandit, dolor diam fringilla tellus, eu euismod mauris neque
+        at neque.orem ipsum dolor sit amet</string>
+    <string name="title_activity_test">Settings</string>
+    <string name="register_name">Name</string>
+    <string name="register_repeat_password">Repeat Password</string>
+    <string name="register_confirm">Confirm</string>
+    <string name="register_photo">Photo:</string>
+    <string name="menu_schedule">Schedule</string>
+    <string name="menu_speakers">Speakers</string>
+    <string name="menu_participants">Participants</string>
+    <string name="menu_main_page">Main Page</string>
+    <string name="menu_chat">Chat</string>
+    <string name="location">Location</string>
+    <string name="menu_plant">Plant</string>
+    <string name="menu_ticket">Ticket</string>
+    <string name="menu_my_schedule">My Schedule</string>
+    <string name="main_menu_user">User</string>
+    <string name="main_menu_my_tickets">My tickets</string>
+    <string name="main_menu_business_card">Business Card</string>
+    <string name="main_menu_future_events">Future Events</string>
+    <string name="main_menu_actual_events">Actual Events</string>
+    <string name="main_menu_suggested_events">Suggested Events</string>
+    <string name="main_menu_log_out">Log Out</string>
+    <string name="main_menu_settings">Settings</string>
+    <string name="main_menu_app">App</string>
+    <string name="main_menu_events">Events</string>
+    <string name="settings_language">LANGUAGE</string>
+    <string name="settings_brightness">BRIGHTNESS</string>
+    <string name="settings_notifications">NOTIFICATIONS</string>
+    <string name="language_1">English</string>
+    <string name="language_2">Portuguese</string>
+    <string name="write_a_message">Write a message...</string>
+    <string name="login_auth_failed">Authentication failed.</string>
+    <string name="swipe_adpter_floor">Floor</string>
+    <string name="ticket_owned_by">This ticket is owned by:</string>
+    <string name="wanna_buy_ticket">Are you sure you want to buy this ticket?</string>
+    <string name="str_no">No</string>
+    <string name="str_yes">Yes</string>
+    <string name="buy_ticket">Buy Ticket</string>
+    <string name="ticket_price">PRICE:</string>
+    <string name="title_actual_events">Actual Events</string>
+    <string name="title_business_card">Business Card</string>
+    <string name="title_chat">Chat</string>
+    <string name="title_chat_users">Users</string>
+    <string name="title_plants">Plant</string>
+    <string name="title_future">Future Events</string>
+    <string name="title_location">Location</string>
+    <string name="title_my_schedule">My Schedule</string>
+    <string name="title_my_tickets">My Tickets</string>
+    <string name="title_participants">Participants</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_speakers">Speakers</string>
+    <string name="title_suggested">Suggested Events</string>
+    <string name="title_ticket">Ticket</string>
+    <string name="question_logout">Are you sure you want to log out?</string>
+    <string name="main_menu_form_events">Form</string>
+    <string name="title_global_search">Global Search</string>
+
+
+    <array name="user_usernames">
+        <item>user</item>
+        <item>test</item>
+
+    </array>
+
+    <array name="user_emails">
+        <item>user@ua.pt</item>
+        <item>test@ua.pt</item>
+    </array>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menu_schedule"
+        android:orderInCategory="250"
+        android:title="@string/menu_schedule">
+    </item>
+    <item
+        android:id="@+id/menu_global_search"
+        android:orderInCategory="18"
+        android:visible="false"
+        android:icon="@drawable/ic_speaker"
+        android:title="Global Search">
+    </item>
+    <item
+        android:id="@+id/menu_speakers"
+        android:orderInCategory="20"
+        android:icon="@drawable/ic_speaker"
+        android:title="@string/menu_speakers">
+    </item>
+    <item
+        android:id="@+id/menu_participants"
+        android:orderInCategory="21"
+        android:visible="false"
+        android:icon="@drawable/ic_person"
+        android:title="@string/menu_participants">
+    </item>
+    <item
+        android:id="@+id/menu_main_page"
+        android:orderInCategory="10"
+        android:title="@string/menu_main_page">
+    </item>
+    <item
+        android:id="@+id/menu_chat"
+        android:orderInCategory="30"
+        android:visible="false"
+        android:title="@string/menu_chat" />
+    <item
+        android:id="@+id/menu_location"
+        android:orderInCategory="251"
+        android:title="@string/location">
+    </item>
+    <item
+        android:id="@+id/menu_event_plant"
+        android:orderInCategory="252"
+        android:title="@string/menu_plant">
+    </item>
+
+    <item
+        android:id="@+id/menu_ticket"
+        android:orderInCategory="253"
+        android:title="@string/menu_ticket">
+    </item>
+
+    <item
+        android:id="@+id/menu_my_schedule"
+        android:orderInCategory="254"
+        android:visible="false"
+        android:title="@string/menu_my_schedule">
+    </item>
+</menu>
+

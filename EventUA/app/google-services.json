@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "384449649599",
+    "firebase_url": "https://eventua-84793-84921.firebaseio.com",
+    "project_id": "eventua-84793-84921",
+    "storage_bucket": "eventua-84793-84921.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:384449649599:android:10915fadec6d84d9",
+        "android_client_info": {
+          "package_name": "ua.pt.eventua"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "384449649599-a41e2kiue135g8nh9u24g6hkdoke3c0k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ua.pt.eventua",
+            "certificate_hash": "20b5498adc785fe20696677726095f14c500e0aa"
+          }
+        },
+        {
+          "client_id": "384449649599-0p7ifieoj9rtrh4vlem91rtog0roq30u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPIrJOVY2fFHryVmiAL9qlHU8df03i7Ik"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "384449649599-0p7ifieoj9rtrh4vlem91rtog0roq30u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

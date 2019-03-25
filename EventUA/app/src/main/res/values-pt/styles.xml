@@ -1,0 +1,99 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#131339</item>
+        <item name="colorPrimaryDark">#131339</item>
+        <item name="colorAccent">#ff5500</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MyCustomTheme" parent="MaterialSearchBarLight">
+        <item name="mt_searchBarColor">#131339</item>
+        <item name="mt_dividerColor">@color/searchBarDividerColor</item>
+        <item name="mt_navIconTint">@color/searchBarNavIconTintColor</item>
+        <item name="mt_searchIconTint">@color/searchBarSearchIconTintColor</item>
+        <item name="mt_clearIconTint">@color/searchBarClearIconTintColor</item>
+        <item name="mt_menuIconTint">@color/searchBarMenuIconTintColor</item>
+        <item name="mt_backIconTint">@color/searchBarBackIconTintColor</item>
+        <item name="mt_textCursorTint">@color/searchBarCursorColor</item>
+        <item name="mt_textColor">@color/searchBarTextColor</item>
+        <item name="mt_hintColor">@color/searchBarHintColor</item>
+        <item name="mt_placeholderColor">@color/searchBarPlaceholderColor</item>
+        <item name="mt_highlightedTextColor">@color/searchBarTextHighlightColor</item>
+        <item name="mt_leftTextSelectorTint">@color/leftTextSelectorColor</item>
+        <item name="mt_middleTextSelectorTint">@color/middleTextSelectorColor</item>
+        <item name="mt_rightTextSelectorTint">@color/rightTextSelectorColor</item>
+        <item name="mt_leftTextSelectorDrawable">@drawable/text_select_handle_left_mtrl_alpha_mtrlsearch</item>
+        <item name="mt_middleTextSelectorDrawable">@drawable/text_select_handle_middle_mtrl_alpha_mtrlsearch</item>
+        <item name="mt_rightTextSelectorDrawable">@drawable/text_select_handle_right_mtrl_alpha_mtrlsearch</item>
+        <item name="android:actionMenuTextAppearance">@color/white</item>
+        <item name="mt_handlesTintEnabled">true</item>
+    </style>
+
+
+    <style name="ButtonEventUA">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">#ff5500</item>
+        <item name="android:fontFamily">@font/raleway_semibold</item>
+    </style>
+
+    <style name="NavHeaderEventUA">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">#ff5500</item>
+        <item name="android:backgroundTint">#ff5500</item>
+        <item name="android:fontFamily">@font/raleway_semibold</item>
+    </style>
+
+    <style name="ToolbarEventUA">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">#131339</item>
+        <item name="android:backgroundTint">#131339</item>
+        <item name="android:fontFamily">@font/raleway_semibold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:actionMenuTextColor">@color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:actionMenuTextAppearance">@color/white</item>
+    </style>
+
+    <style name="Title1EventUA">
+        <item name="android:textColor">#131339</item>
+        <item name="android:fontFamily">@font/raleway_semibold</item>
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="Title2EventUA">
+        <item name="android:textColor">#131339</item>
+        <item name="android:fontFamily">@font/raleway_semibold</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Title3EventUA">
+        <item name="android:textColor">#262626</item>
+        <item name="android:fontFamily">@font/raleway_semibold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextEventUA">
+        <item name="android:textColor">#262626</item>
+        <item name="android:fontFamily">@font/raleway_semibold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+
+    <style name="WhiteTextEventUA">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/raleway_semibold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    </resources>
